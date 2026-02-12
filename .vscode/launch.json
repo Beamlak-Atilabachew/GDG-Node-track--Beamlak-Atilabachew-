@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Run Task-4 Server",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/Task-4/server.js",
+      "envFile": "${workspaceFolder}/Task-4/.env"
+    }
+  ]
+}
